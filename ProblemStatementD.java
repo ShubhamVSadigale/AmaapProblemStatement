@@ -25,9 +25,6 @@ public class ProblemStatementD {
             dice2[i] = r.nextInt(6) + 1;
         }
 
-        // int dice1[] = {1, 2, 3, 3, 4, 5};
-        // int dice2[] = {1, 2, 3, 4, 4, 5};
-
         System.out.println("Below are the dice values for "+ player1 +" : ");
         for(int i=0 ; i<dice1.length ; i++){
             System.out.print("  "+dice1[i]);
@@ -101,8 +98,6 @@ public class ProblemStatementD {
         else{
             return player2;
         }
-
-        // return "It's a tie";
     }
 
     public static int findMax(int[] dice) {
